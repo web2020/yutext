@@ -1,0 +1,19 @@
+/* pages/shop/shop.wxss */
+.commp{
+  padding:0 0.5rem;
+  background:#ffffff;
+}
+.sho1,.sho2,.sho3{
+  display: flex;
+}
+.sho1>image,.sho2>image,.sho3 image{
+  width:100%;
+  height:5rem;
+}
+.mis{
+  display: flex;
+}
+.img1,.img2,.img3{
+  width:150px;height:140px;
+}
+.ziti{font-size:14px;}

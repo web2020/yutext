@@ -1,0 +1,65 @@
+<!--pages/shop/shop.wxml-->
+<view class="commp">
+  <view class="sho1">
+    <image src="../../images/1.jpg"></image>
+    <image src="../../images/2.jpg"></image>
+    <image src="../../images/3.jpg"></image>
+    <image src="../../images/4.jpg"></image>
+    <image src="../../images/5.jpg"></image>
+  </view>
+  <view class="sho2">
+    <image src="../../images/6.jpg"></image>
+    <image src="../../images/7.jpg"></image>
+    <image src="../../images/8.jpg"></image>
+    <image src="../../images/9.jpg"></image>
+    <image src="../../images/10.jpg"></image>
+  </view>
+  <view class="sho3">
+    <image src="../../images/11.jpg"></image>
+    <image src="../../images/12.jpg"></image>
+    <image src="../../images/13.jpg"></image>
+    <image src="../../images/14.jpg"></image>
+    <image src="../../images/15.jpg"></image>
+  </view>
+  <view>
+    <view>
+      <image style="width:100%;height:10rem;" src="../../images/vip.png"></image>
+    </view>
+  </view>
+  <h6 style="font-weight:bold">每日秒杀0点更新</h6>
+  <view class="mis">
+    <view>
+      <image  class="img1" src="../../images/miao1.png"></image>
+      <view class="ziti">喝一点拉十年，喝一罐拉死你</view>
+      <text style="color:red;font-size:14px;">￥12.99</text>
+    </view>
+    <view>
+      <image  class="img2" src="../../images/miao2.png"></image>
+      <view class="ziti">粒粒皆辛苦，敢不吃我家米</view>
+      <text style="color:red;font-size:14px;">￥18.99</text>
+    </view>
+    <view>
+      <image  class="img3" src="../../images/miao3.png"></image>
+      <view class="ziti">感情深，一口闷，农药的魅力</view>
+      <text style="color:red;font-size:14px;">￥18.99</text>
+    </view>
+  </view>
+  <text style="font-weight:bold;">近七日爆款</text>
+  <view class="mis">
+    <view>
+      <image  class="img1" src="../../images/miao1.png"></image>
+      <view class="ziti">喝一点拉十年，喝一罐拉死你</view>
+      <text style="color:red;font-size:14px;">￥12.99</text>
+    </view>
+    <view>
+      <image  class="img2" src="../../images/miao2.png"></image>
+      <view class="ziti">粒粒皆辛苦，敢不吃我家米</view>
+      <text style="color:red;font-size:14px;">￥18.99</text>
+    </view>
+    <view>
+      <image  class="img3" src="../../images/miao3.png"></image>
+      <view class="ziti">感情深，一口闷，农药的魅力</view>
+      <text style="color:red;font-size:14px;">￥18.99</text>
+    </view>
+  </view>
+</view>
