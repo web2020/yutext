@@ -1,5 +1,5 @@
 /* pages/shop/shop.wxss */
-.commp{
+.commp{   /*主体背景，内边*/
   padding:0 0.5rem;
   background:#ffffff;
 }
@@ -16,4 +16,21 @@
 .img1,.img2,.img3{
   width:150px;height:140px;
 }
-.ziti{font-size:14px;}
+/* 空隙样式 */
+.ml-10{margin-left:10px;}
+.mr-10{margin-right:10px;}
+.mt-10{margin-top:10px!important;}
+.mb-10{margin-bottom: 10px!important;}
+
+.ziti{font-size:14px;} /*字体大小*/
+.ziti-1{font-size:12px;}
+.cuti{font-weight:bold;}/*粗体*/
+.dk{display: block;}
+.hao image{
+  border-radius: 10px;
+  width:180px;height:130px;
+}
+.hao1,.hao2,.hao3,.hao4,.hao5,.hao6{
+  display:flex;
+}
+.a1{margin-left:10px;}
