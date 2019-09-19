@@ -1,0 +1,48 @@
+<view class="container">
+  <image src="/images/1.jpg"></image>
+  <image src="/images/2.jpg"></image>
+  <image src="/images/3.jpg"></image>
+  <image src="/images/4.jpg"></image>
+  <image src="/images/5.jpg"></image>
+</view>
+<view class="container">
+  <image src="/images/6.jpg"></image>
+  <image src="/images/7.jpg"></image>
+  <image src="/images/8.jpg"></image>
+  <image src="/images/9.jpg"></image>
+  <image src="/images/10.jpg"></image>
+</view>
+<view>
+  <image src="/images/vip.jpg" class="vip"></image>
+</view>
+
+<view class="item" style="color:blue">
+  <text>今日秒杀</text>
+  <text>更多></text>
+</view>
+
+<scroll-view scroll-x class="scroll-warp">
+  <view class="container-img">
+    <view class="_img" wx:for="{{list}}" wx:key="index">
+      <image src="/images/meishi01.JPG"></image>
+      <view>【立减10元】大师技法冷冻BR面团</view>
+    </view>
+  </view>
+</scroll-view>
+<scroll-view scroll-x class="scroll-warp">
+  <view class="container-img">
+    <view class="_img" wx:for="{{list}}" wx:key="index">
+      <image src="/images/meishi01.JPG"></image>
+      <view>【立减10元】大师技法冷冻BR面团</view>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 全部课程 -->
+
+<view class="KC">
+  <view wx:for="{{lists}}" wx:key="index"> 
+      <image src="{{item.image}}"></image>
+      <view>{{item.detail}}</view>
+      </view>
+</view>

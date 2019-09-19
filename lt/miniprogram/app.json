@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/ketang/ketang",
+    "pages/biji/biji",  
+    "pages/shouye/index",
+    "pages/shangcheng/shangcheng",
+    "pages/wode/login"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F00",
+    "navigationBarTitleText": "课堂",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color":"#bfbfbf",
+    "selectedColor":"#333333",
+    "list":[
+      {
+        "pagePath":"pages/shouye/index",
+        "text":"首页",
+        "iconPath":"images/1.png",
+       "selectedIconPath":"images/1_active.png"
+      },
+      {
+        "pagePath": "pages/ketang/ketang",
+        "text": "课堂",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2_active.png"
+      },
+      {
+        "pagePath": "pages/biji/biji",
+        "text": "笔记",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3_active.png"
+      },
+      {
+        "pagePath": "pages/shangcheng/shangcheng",
+        "text": "商城",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/4_active.png"
+      },
+      {
+        "pagePath": "pages/wode/login",
+        "text": "我的",
+        "iconPath": "images/5.png",
+        "selectedIconPath": "images/5_active.png"
+      }
+    ]
+
+  }
+}
