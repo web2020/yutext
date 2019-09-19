@@ -11,7 +11,7 @@
   height:5rem;
 }
 .mis{
-  display: flex;
+  display: flex!important;
 }
 .img1,.img2,.img3{
   width:150px;height:140px;
@@ -34,3 +34,12 @@
   display:flex;
 }
 .a1{margin-left:10px;}
+.wii{
+  overflow-x:hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
+}

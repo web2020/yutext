@@ -1,0 +1,15 @@
+<!--pages/fen/fen.wxml-->
+<view class="product-app">
+  <view wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}"  class="goods-item">
+    <image src="{{item.img}}" style="width:100%;height:200rpx;"></image>
+    <!-- (2)商品的名称 -->
+    <view class="bei">
+      <text style="font-size:12px;">果肉金黄，清甜多汁</text>
+    </view>
+    <text style="font-size:14px;" class="cu">归田局 | 云南狗不理龙虾（200斤~300斤）</text>
+    <!-- (3)商品的价格 -->
+    <view class="info cu">￥{{item.price}}</view>
+    <!-- (4)加入荣购物车 -->
+  </view>
+  <!-- 练习：当用户点击加载更多显示下一页数据，保留上一页数据 -->
+</view>
